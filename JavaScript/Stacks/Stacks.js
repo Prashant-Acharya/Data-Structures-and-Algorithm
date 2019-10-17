@@ -9,6 +9,9 @@ class Stack {
 	}
 
 	pop() {
+		if (top == -1)
+			return 'Stack Underflow'
+
 		return this.elements[this.top--]
 	}
 
