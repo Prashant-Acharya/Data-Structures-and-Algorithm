@@ -37,12 +37,40 @@ The given string is balanced if:
 
 _Note that an empty string is also considered valid._
 
+
+
 ### **Problem solving approach**
 This problem is solved by implementing Stack Principle. This approach includes pushing and popping of element to and from the stack.
 
+If the character we are reading is opening parenthesis then we push the character onto the stack and if we encounter a closing parenthesis then we check if the top element on the stack is corresponding opening parenthesis. If we find that it is the case then we pop the element from the stack. At the end, if the stack is empty, we return valid, else invalid.
+
+The problem solving approach can be formally described by the following algorithm:
+
+      function BalancedParenthesis(string):
+         
+         initialize stack object as s
+
+         for i = 1 to lengthOfString - 1
+            
+            if string[i] == '(' or '{' or '['
+               push string[i] onto the stack
+
+            else if string[i] == ')' or ']' or '}'
+   
+                  if stack is empty: 
+                     return false
+                  
+                  else if closing and opening are corresponding:
+                     pop the top element from stack
+         
+         if stack is empty:
+            return true
+         else:
+            return false
+                  
+
+
 At first let's define two sets of array:
-        
-        
         1. Array that contains opening brackets i.e ( , { and [
         2. Array that contains closing brackets i.e ) , } and ]
    ![Push](Array.jpg)

@@ -8,5 +8,6 @@
   - [Kotlin Source code](./Kotlin/src/Stacks.kt)
 
 - Application of Stacks: Balanced Parenthesis
+  - [Explanation](./Docs/Stacks/Balanced-Paranthesis.md)
   - [JS Source code](./JavaScript/Stacks/Applications/balanced-parenthesis.js)
   - [Kotlin Source code](./Kotlin/src/application/BalancedParanthesis.kt)
