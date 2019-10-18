@@ -1,5 +1,5 @@
 # Balanced Paranthesis
-###**Introduction**
+### **Introduction**
 
 **Balancing paranthesis** is one of the classic example application of Stack. It follows a particular order
 in which operations are carried out. This order of operation is popularly known as LIFO (Last In, First Out) operation.
@@ -14,7 +14,7 @@ Parenthesis or Bracket is considered to be any of the following characters:
 
 The task is to check whether the given string of these characters combined in any form is balanced or not.
 
-###**Problem Description**
+### **Problem Description**
 One will be given with a string that contains these brackets in any form like {(a+b)}, the problem is to determine whether the given string is balanced or not.
 
 The given string is balanced if:
@@ -37,7 +37,7 @@ The given string is balanced if:
 
 _Note that an empty string is also considered valid._
 
-###**Problem solving approach**
+### **Problem solving approach**
 This problem is solved by implementing Stack Principle. This approach includes pushing and popping of element to and from the stack.
 
 At first let's define two sets of array:
