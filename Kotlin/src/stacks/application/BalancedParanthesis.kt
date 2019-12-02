@@ -1,4 +1,4 @@
-package application
+package stacks.application
 
 class BalanceStack {
     var arr = ArrayList<Char>()
