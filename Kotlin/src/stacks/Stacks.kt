@@ -1,3 +1,5 @@
+package stacks
+
 class Stack {
     var arr = ArrayList<Int>()
     var topIndex = -1
@@ -10,7 +12,7 @@ class Stack {
     fun pop(): Int = arr.removeAt(topIndex--)
 
     fun displayStack() {
-        println("Stack elements are: ")
+        println("Stacks.Stack elements are: ")
         for (i in 0..topIndex) {
             println(arr[i])
         }
